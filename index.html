@@ -16,7 +16,7 @@
     <div class="main">
     <div id="#home" class="container">
         <h1 class="logo">Portfolio</h1>
-            <nav>
+            <nav class="desktop-nav">
                 
                 <ul>
                     <li>
@@ -34,12 +34,33 @@
                 </ul>
 
             </nav>
+            <input type="checkbox" id="menu-select" name="menu-select">
+            <nav class="mobile-view">
+                <label for="menu-select" class="menu-close">&times;</label>
+                <ul>
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about_me">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#project">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="#contact_me">CONTACT</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <label for="menu-select" class="menu-select">&#x2630;</label>
             
     </div>
 
+
         <!-- home-section -->
-  
-        <section>
+        
+        
             <div class="home">
                 <div class="home-details">
                     <h1>Akhil Raju</h1>
@@ -64,9 +85,10 @@
                 </div>
                 
             </div>
-        </section>
-   
+       
     </div>
+   
+    
 
     <!-- about-section -->
 
@@ -164,9 +186,7 @@
                         <input type="Submit" value="send" id="button">
                     </form>
                 </div>
-                <div class="contact-image">
-                    <img src="" alt="">
-                </div>
+               
             
             </div>
         </div>
